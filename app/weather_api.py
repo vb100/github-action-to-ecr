@@ -49,7 +49,7 @@ def predict_weather(data: WeatherVariables):
 		[label_name], {input_name: data_to_pred.astype(numpy.float32)}
 		)[0]
 
-	if (prediction[0] > 0.5):
+	if (prediction[0] > 0.55):
 		prediction = 'Rain'
 	else:
 		prediction = 'No_rain'
