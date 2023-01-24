@@ -1,4 +1,4 @@
-# Phishing Domain Detection 💳![image](https://user-images.githubusercontent.com/71118670/214280433-1e812cf9-c102-4f5e-8710-d4d1f6668e93.png)
+# Phishing Domain Detection 💳
 
 
 ## 🪄 About
@@ -13,7 +13,8 @@ Link: : https://pishing-domain-checking.azurewebsites.net/
 
 ## 🏋🏻‍♂️ Motivation
 
-As we are seeing with the growing number of credit card users, banks & credit card companies are facing an increase in credit card default rate. This increase in defaults creates much impact to the financial companies along with the cardholders and pulls them to losses. As such, data analytics can provide solutions to manage the current phenomenon and management of credit defaults. This project discusses the implementation of a model which predicts if a given credit card holder has a probability of defaulting in the following month, using their demographic data like (age, gender, marital status) and behavioural data from the past 6 months.
+Phishing is a type of fraud in which an attacker impersonates a reputable company or person in order to get sensitive information such as login credentials or account information via email or other communication channels. Phishing is popular among attackers because it is easier to persuade someone to click a malicious link that appears to be authentic than it is to break through a computer's protection measures.
+The mail goal is to predict whether the domains are real or malicious.
 
 
 ## 📈 DataSource
