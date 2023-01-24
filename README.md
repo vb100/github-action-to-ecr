@@ -173,7 +173,8 @@ newgrp docker
 
 ## 🦾 Tools & Technogies Used
 
-<img src='https://user-images.githubusercontent.com/71118670/183835338-5b56bb3d-5eef-49c7-ac94-52e99d4e3711.png' alt='github' height='60' >
+<img src='https://user-images.githubusercontent.com/71118670/183835338-5b56bb3d-5eef-49c7-ac94-52e99d4e3711.png' alt='github' height='60'><img src='https://user-images.githubusercontent.com/71118670/183841152-8ef4baee-2bd1-4149-8544-57cea0d0a12c.png' alt='github' height='60' width=120 BORDER=0>
+<img src='https://user-images.githubusercontent.com/71118670/183841434-8c6fe9c8-c37b-4244-9e5f-a1d0af11541b.png' alt='github' height='60' width=110 BORDER=0>
 <img src='https://user-images.githubusercontent.com/71118670/183839009-9f746af4-05b9-47c7-9ab8-6efd3dd8e56b.png' alt='github' height='60' width=110 BORDER=0>
 <img src='https://user-images.githubusercontent.com/71118670/183839636-a99a75a1-6fb9-431c-874f-63e9215160d4.png' alt='github' height='60' width=110 BORDER=0>
 <img src='https://user-images.githubusercontent.com/71118670/183840798-8786c747-38c2-4e8d-9b8c-3147982366dd.png' alt='github' height='60' width=120 BORDER=0>
