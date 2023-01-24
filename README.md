@@ -158,7 +158,7 @@ Enter any additional labels (ex. label-1,label-2): [press Enter to skip]
 
 # After adding the runer into github, use all the command availabe into ec2
 
-# Install Docker into EC2
+## Install Docker into EC2
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
