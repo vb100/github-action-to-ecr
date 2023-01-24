@@ -75,56 +75,97 @@ Demo Video Link: https://youtu.be/qn8MmiEdNao
 
 ### ⚙️ SetUp
 
-1. Creating conda environment
- ``` 
- conda create -p venv python==3.7 -y 
- ```
-
-2. For activating environment
-```
-"conda activate venv/"
-```
-3. For installing packages in requirements.txt
-```
+Step 1 - Install the requirements
 pip install -r requirements.txt
-```
+Step 2 - Run main.py file
+python main.py
+To download your dataset
 
-4. To add files to git
-```
-git add <file_name> => for adding single file to git.
-git add . => for adding all the files to your local git.
-```
-5. To check the git status
-```
-git status
-```
-6. To create version/commit all the changes to git
+wget https://raw.githubusercontent.com/herbert0419/Insurance-Premium-Prediction/main/insurance.csv
+This is changes made in neuro lab
 
-```
-git commit -m "Message"
-```
-7. To send version/changes to github.
-```
+Git commands
+
+If you are starting a project and you want to use git in your project
+
+git init
+Note: This is going to initalize git in your source code.
+
+OR
+
+You can clone exiting github repo
+
+git clone <github_url>
+Note: Clone/ Downlaod github repo in your system
+
+Add your changes made in file to git stagging are
+
+git add file_name
+Note: You can given file_name to add specific file or use "." to add everything to staging are
+
+Create commits
+
+git commit -m "message"
 git push origin main
-```
+Note: origin--> contains url to your github repo main--> is your branch name
 
-## 📒 Notebooks
+To push your changes forcefully.
 
-1. EDA&Feature_engineering.ipynb
+git push origin main -f
+To pull changes from github repo
 
-    In this Notebook, I have performed complete End-to-End Machine Learning process from DataIngestion to Data Evaluation
-    * Steps Performed:
-        1. Data Ingestion
-        2. EDA
-        3. Feature Engineering
-        4. Feature Selection
-        5. Sampling
-        6. Model Training
-        7. Best model using(AUC-ROC) curve
-<br>
-2. CreditCard_DefaultPrediction.ipynb
+git pull origin main
+Note: origin--> contains url to your github repo main--> is your branch name
 
-    This is the main syntax for the project i.e, main steps to be implemented in the project.
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker ubuntu
+newgrp docker
+
+
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_REGION=
+AWS_ECR_LOGIN_URI=
+ECR_REPOSITORY_NAME=
+BUCKET_NAME=
+MONGO_DB_URL=
+
+Command to re-run the ec2 instance:
+
+cd actions-runner/
+./run.sh
+
+GitHub Setting:
+
+* Add Runner
+* Add all the keys in the secret section
+
+
+Add Runner into EC2:
+
+√ Connected to GitHub
+
+# Runner Registration
+
+Enter the name of the runner group to add this runner to: [press Enter for Default] 
+
+Enter the name of runner: [press Enter for ip-172-31-32-83] self-hosted
+
+This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): [press Enter to skip] 
+
+√ Runner successfully added
+√ Runner connection is good
+
+After adding the runer into github, use all the command availabe into ec2
+
+Install Docker into EC2
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+sudo usermod -aG docker ubuntu
+newgrp docker
 
 
 ## 🦾 Tools & Technogies Used
