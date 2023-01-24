@@ -168,7 +168,8 @@ newgrp docker
 
 ## 🦾 Tools & Technogies Used
 
-![technologies](https://user-images.githubusercontent.com/71118670/214284908-7989e766-e8fe-47b2-947f-0e5eb17cf9c1.png)
+![image](https://user-images.githubusercontent.com/71118670/214285233-24af9a58-7cd6-4bf2-b704-6a9d011438e3.png)
+
 
 
 ## ✍️ Author
