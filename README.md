@@ -48,7 +48,8 @@ Total number of features: 111
 
 ## 💻 Web UI
 
-<a><img src='templates/Home.png' width="60%" height="45%"></a>
+![image](https://user-images.githubusercontent.com/71118670/214281749-bbf964c0-41cb-43c8-90a1-369daba55a69.png)
+
 
 ## 📺 Demo Video
 
