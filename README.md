@@ -1,4 +1,4 @@
-# Phishing Domain Detection 💳
+# Phishing Domain Detection :zap:
 
 
 ## 🪄 About
