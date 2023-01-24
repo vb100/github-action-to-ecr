@@ -19,9 +19,27 @@ The mail goal is to predict whether the domains are real or malicious.
 
 ## 📈 DataSource
 
-In the dataset we have 25 columns which reflect various attributes of the customer. The target column is default.payment.next.month which tells whether a person will default or not. In this dataset, we have information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card holders from April 2005 to September 2005.
+Phishing Websites Dataset
+Published: 24 September 2020|Version 1|DOI:10.17632/72ptz43s9v.1
+Contributor:Grega Vrbančič
+# Description
+These data consist of a collection of legitimate as well as phishing website instances. Each website is represented by the set of features which denote, whether website is legitimate or not. Data can serve as an input for machine learning process.
 
-Datasource Link: https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset
+In this repository the two variants of the Phishing Dataset are presented.
+
+Full variant - dataset_full.csv
+Short description of the full variant dataset:
+Total number of instances: 88,647
+Number of legitimate website instances (labeled as 0): 58,000
+Number of phishing website instances (labeled as 1): 30,647
+Total number of features: 111
+
+Small variant - dataset_small.csv
+Short description of the small variant dataset:
+Total number of instances: 58,645
+Number of legitimate website instances (labeled as 0): 27,998
+Number of phishing website instances (labeled as 1): 30,647
+Total number of features: 111
 
 ## 🗂️ Project Directory tree
 
