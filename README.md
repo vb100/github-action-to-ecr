@@ -111,7 +111,7 @@ git commit -m "message"
 
 git push origin main
 
-Note: origin--> contains url to your github repo main--> is your branch name
+## Note: origin--> contains url to your github repo main--> is your branch name
 
 # To push your changes forcefully.
 git push origin main -f
@@ -120,7 +120,7 @@ To pull changes from github repo
 
 git pull origin main
 
-Note: origin--> contains url to your github repo main--> is your branch name
+## Note: origin--> contains url to your github repo main--> is your branch name
 
 curl -fsSL https://get.docker.com -o get-docker.sh
 
@@ -129,8 +129,8 @@ sudo sh get-docker.sh
 sudo usermod -aG docker ubuntu
 
 newgrp docker
+----------------------------------------------------------------
 
-=====================================================================================================
 AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
