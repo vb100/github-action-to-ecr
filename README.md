@@ -43,11 +43,6 @@ Total number of features: 111
 ## Google Drive link to access the Project Docs:
 https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing
 
-## 🗂️ Project Directory tree
-
-
-<a><img src='templates/dir_snip1.png' width="30%" height="50%"></a><br>
-<a><img src='templates/dir_snip2.png' width="30%" height="50%"></a>
 
 ## 💻 Web UI
 
