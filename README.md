@@ -75,13 +75,14 @@ Demo Video Link: https://youtu.be/qn8MmiEdNao
 
 ### ⚙️ SetUp
 
-##Step 1 - Install the requirements
+## Step 1 - Install the requirements
 pip install -r requirements.txt
 
 ## Step 2 - Run app.py file
 python main.py
 
 To download your dataset
+
 https://data.mendeley.com/datasets/72ptz43s9v/1
 
 
@@ -97,10 +98,12 @@ OR
 
 # You can clone exiting github repo
 git clone <github_url>
+
 Note: Clone/ Downlaod github repo in your system
 
 # Add your changes made in file to git stagging are
 git add file_name
+
 Note: You can given file_name to add specific file or use "." to add everything to staging are
 
 # Create commits
@@ -127,7 +130,7 @@ sudo usermod -aG docker ubuntu
 
 newgrp docker
 
-
+=====================================================================================================
 AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
