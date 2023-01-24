@@ -40,6 +40,8 @@ Number of legitimate website instances (labeled as 0): 27,998
 Number of phishing website instances (labeled as 1): 30,647
 Total number of features: 111
 
+## Google Drive link to access the Project Docs:
+
 ## 🗂️ Project Directory tree
 
 
@@ -130,7 +132,7 @@ git push origin main
 
 ## ✍️ Author
 
-@Ravi Teja Mandarapu
+@Amitava Majumder
 
 
 
