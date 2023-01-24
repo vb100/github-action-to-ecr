@@ -58,20 +58,6 @@ https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sha
 
 Demo Video Link: https://youtu.be/qn8MmiEdNao
 
-## 🖥️ Installation
-
-### 🛠️ Requirement packages
-* numpy  
-* pandas
-* matplotlib
-* sklearn
-* Flask
-* gunicorn
-* imblearn
-* xgboost
-* mysql-connector-python
-* six
-* dill
 
 ### ⚙️ SetUp
 
@@ -94,7 +80,6 @@ git init
 
 Note: This is going to initalize git in your source code.
 
-OR
 
 # You can clone exiting github repo
 git clone <github_url>
@@ -127,8 +112,8 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
 sudo usermod -aG docker ubuntu
-
 newgrp docker
+
 ----------------------------------------------------------------
 
 AWS_ACCESS_KEY_ID=
