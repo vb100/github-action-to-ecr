@@ -1,4 +1,4 @@
-# Credit-Card-Default-Prediction 💳
+# Phishing Domain Detection 💳
 
 ## 🪄 About
 
