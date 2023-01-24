@@ -65,7 +65,7 @@ Demo Video Link: https://youtu.be/qn8MmiEdNao
 pip install -r requirements.txt
 
 ## Step 2 - Run app.py file
-python main.py
+python app.py
 
 To download your dataset
 
