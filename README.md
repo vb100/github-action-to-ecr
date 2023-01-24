@@ -47,6 +47,13 @@ https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sha
 ## 💻 Web UI
 
 ![image](https://user-images.githubusercontent.com/71118670/214281749-bbf964c0-41cb-43c8-90a1-369daba55a69.png)
+![image](https://user-images.githubusercontent.com/71118670/214356849-216f346b-9cd0-4176-829e-83ddb3f426e7.png)
+![image](https://user-images.githubusercontent.com/71118670/214356893-85c12a7c-8d47-4faa-a54c-8cb03fcb91c0.png)
+![image](https://user-images.githubusercontent.com/71118670/214356948-f5edead3-d1f0-43fa-a912-6ee130b93464.png)
+![image](https://user-images.githubusercontent.com/71118670/214356985-51594d4c-a1e3-4016-a914-295abb2211cf.png)
+![image](https://user-images.githubusercontent.com/71118670/214357013-3069bd3a-b0b2-4874-b5ba-2db995265312.png)
+
+
 
 
 ## 📺 Demo Video
