@@ -81,8 +81,8 @@ Step 2 - Run main.py file
 python main.py
 To download your dataset
 
-wget https://raw.githubusercontent.com/herbert0419/Insurance-Premium-Prediction/main/insurance.csv
-This is changes made in neuro lab
+https://data.mendeley.com/datasets/72ptz43s9v/1
+
 
 Git commands
 
