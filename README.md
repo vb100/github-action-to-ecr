@@ -161,8 +161,11 @@ Enter any additional labels (ex. label-1,label-2): [press Enter to skip]
 ## Install Docker into EC2
 
 curl -fsSL https://get.docker.com -o get-docker.sh
+
 sudo sh get-docker.sh
+
 sudo usermod -aG docker ubuntu
+
 newgrp docker
 
 
