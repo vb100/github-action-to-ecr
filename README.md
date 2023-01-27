@@ -43,8 +43,19 @@ Total number of features: 111
 ## Google Drive link to access the Project Docs:
 https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing
 
+## Continuous deployment
+![runners](https://user-images.githubusercontent.com/71118670/215041398-96a0f4f0-3c08-4154-8147-9e700ccd3837.JPG)
+![amazon](https://user-images.githubusercontent.com/71118670/215041619-1111dbfb-cba7-4acf-8436-d4fd695cf209.JPG)
+![delivery](https://user-images.githubusercontent.com/71118670/215041537-9c64e012-2e98-4042-b6f0-aac0bc65dac3.JPG)
+![deployment2](https://user-images.githubusercontent.com/71118670/215041678-77f69e5f-1385-46d3-8b28-0c3634e85ab0.JPG)
+![ec2](https://user-images.githubusercontent.com/71118670/215041748-ee31b9c3-63b5-4d53-8b68-77d9c17293b1.JPG)
+![s3](https://user-images.githubusercontent.com/71118670/215041798-8175c8bf-1ca9-42f7-82a5-e80121a97597.JPG)
+![dag](https://user-images.githubusercontent.com/71118670/215041880-407d1c67-8992-4b1d-9b0a-29377329af8d.JPG)
+
+
 
 ## 💻 Web UI
+https://pishing-domain-checking.azurewebsites.net/
 
 ![image](https://user-images.githubusercontent.com/71118670/214281749-bbf964c0-41cb-43c8-90a1-369daba55a69.png)
 ![image](https://user-images.githubusercontent.com/71118670/214356849-216f346b-9cd0-4176-829e-83ddb3f426e7.png)
