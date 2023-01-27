@@ -43,7 +43,7 @@ Total number of features: 111
 ## Google Drive link to access the Project Docs:
 https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing
 
-## Continuous deployment
+# Continuous delivery and Continuous deployment
 
 ## Runners
 ![runners](https://user-images.githubusercontent.com/71118670/215041398-96a0f4f0-3c08-4154-8147-9e700ccd3837.JPG)
@@ -54,13 +54,17 @@ https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sha
 ## Github Actions
 ![delivery](https://user-images.githubusercontent.com/71118670/215041537-9c64e012-2e98-4042-b6f0-aac0bc65dac3.JPG)
 
-## 
+## EC2 Continuous deployment status 
 ![deployment2](https://user-images.githubusercontent.com/71118670/215041678-77f69e5f-1385-46d3-8b28-0c3634e85ab0.JPG)
+
+## Elastic Container Registry
 ![ec2](https://user-images.githubusercontent.com/71118670/215041748-ee31b9c3-63b5-4d53-8b68-77d9c17293b1.JPG)
+
+## S3 bucket
 ![s3](https://user-images.githubusercontent.com/71118670/215041798-8175c8bf-1ca9-42f7-82a5-e80121a97597.JPG)
+
+## DAG status
 ![dag](https://user-images.githubusercontent.com/71118670/215041880-407d1c67-8992-4b1d-9b0a-29377329af8d.JPG)
-
-
 
 ## 💻 Web UI
 https://pishing-domain-checking.azurewebsites.net/
