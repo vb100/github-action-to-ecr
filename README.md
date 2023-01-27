@@ -1,5 +1,4 @@
-https://user-images.githubusercontent.com/57321948/196933065-4b16c235-f3b9-4391-9cfe-4affcec87c35.png
-
+![image](https://user-images.githubusercontent.com/71118670/215035534-180aa353-06ae-4f1c-a669-c8344c2d25b0.png)
 # Phishing Domain Detection :zap:
 
 
