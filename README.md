@@ -1,4 +1,3 @@
-![image](https://user-images.githubusercontent.com/71118670/215035534-180aa353-06ae-4f1c-a669-c8344c2d25b0.png)
 # Phishing Domain Detection :zap:
 
 
@@ -42,7 +41,7 @@ Number of phishing website instances (labeled as 1): 30,647
 Total number of features: 111
 
 ## Google Drive link to access the Project Docs:
-[https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing](https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=share_link)
+https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing
 
 
 ## 💻 Web UI
@@ -60,7 +59,7 @@ Total number of features: 111
 
 ## 📺 Demo Video
 
-Demo Video Link: https://youtu.be/qn8MmiEdNao
+Demo Video Link: https://www.youtube.com/watch?v=Z-ir-Ay82GU
 
 
 ### ⚙️ SetUp
@@ -110,6 +109,69 @@ To pull changes from github repo
 git pull origin main
 
 ## Note: origin--> contains url to your github repo main--> is your branch name
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+newgrp docker
+
+----------------------------------------------------------------
+
+AWS_ACCESS_KEY_ID=
+
+AWS_SECRET_ACCESS_KEY=
+
+AWS_REGION=
+
+AWS_ECR_LOGIN_URI=
+
+ECR_REPOSITORY_NAME=
+
+BUCKET_NAME=
+
+MONGO_DB_URL=
+
+# Command to re-run the ec2 instance:
+
+cd actions-runner/
+
+./run.sh
+
+# GitHub Setting:
+
+* Add Runner
+* Add all the keys in the secret section
+
+
+# Add Runner into EC2:
+
+√ Connected to GitHub
+
+# Runner Registration
+
+Enter the name of the runner group to add this runner to: [press Enter for Default] 
+
+Enter the name of runner: [press Enter for ip-172-31-32-83] self-hosted
+
+This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): [press Enter to skip] 
+
+√ Runner successfully added
+√ Runner connection is good
+
+# After adding the runer into github, use all the command availabe into ec2
+
+## Install Docker into EC2
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+
+sudo sh get-docker.sh
+
+sudo usermod -aG docker ubuntu
+
+newgrp docker
 
 
 ## 🦾 Tools & Technogies Used
