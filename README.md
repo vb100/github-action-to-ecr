@@ -41,7 +41,7 @@ Number of phishing website instances (labeled as 1): 30,647
 Total number of features: 111
 
 ## Google Drive link to access the Project Docs:
-https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing
+[https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=sharing](https://drive.google.com/drive/folders/1QPPIWe1lj7g9wUU1M0tqJlZntQHBEXdT?usp=share_link)
 
 
 ## 💻 Web UI
