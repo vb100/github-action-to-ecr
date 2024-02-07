@@ -1,5 +1,11 @@
-FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
-COPY ./app /app
-RUN pip install -r requirements.txt
-EXPOSE 80
-CMD ["uvicorn", "app_api:app", "--host", "0.0.0.0", "--port", "80"]
+FROM node:14
+
+WORKDIR /usr/src/app
+
+COPY package.json .
+RUN npm install 
+COPY . .
+
+EXPOSE 3000
+
+CMD ["node", "index.js"]
