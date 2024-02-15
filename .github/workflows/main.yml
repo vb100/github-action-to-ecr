@@ -1,39 +1,45 @@
-name: Deploy to ECR
+name: AWS Workflow
 
 on:
- 
   push:
+    branches: [ main ]
+  pull_request:
     branches: [ main ]
 
 jobs:
-  
-  build:
-    
-    name: Build Image
+  build-and-deploy:
     runs-on: ubuntu-latest
-
-   
+    
     steps:
-
-    - name: Check out code
+    - name: Checkout repository
       uses: actions/checkout@v2
     
-    - name: Configure AWS credentials
-      uses: aws-actions/configure-aws-credentials@v1
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: eu-central-1
+        node-version: '14'
+
+    - name: Install AWS CLI
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y awscli
+
+    - name: Assume AWS IAM Role
+      run: |
+        creds=($(aws sts assume-role --region us-east-1 --role-arn ${{ secrets.AWS_ASSUME_ROLE_ARN }} --role-session-name "GitHubActionsSession-$(date +%Y%m%d%H%M%S)" --query 'Credentials.[AccessKeyId,SecretAccessKey,SessionToken]' --output text))
+        export AWS_ACCESS_KEY_ID=${creds[0]}
+        export AWS_SECRET_ACCESS_KEY=${creds[1]}
+        export AWS_SESSION_TOKEN=${creds[2]}
 
     - name: Login to Amazon ECR
-      id: login-ecr
-      uses: aws-actions/amazon-ecr-login@v1
-
-    - name: Build, tag, and push image to Amazon ECR
-      env:
-        ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
-        ECR_REPOSITORY: test_ml_demo
-        IMAGE_TAG: test_ml_image
       run: |
-        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        $(aws ecr get-login --no-include-email --region us-east-1)
+
+    - name: Build and push Docker image to Amazon ECR
+      run: |
+        docker build -t 772142012667.dkr.ecr.us-east-1.amazonaws.com/test-demo .
+        docker push 772142012667.dkr.ecr.us-east-1.amazonaws.com/test-demo
+
+    - name: List images in Amazon ECR repository
+      run: |
+        aws ecr describe-images --repository-name test-demo --region us-east-1
